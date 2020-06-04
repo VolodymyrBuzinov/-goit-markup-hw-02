@@ -1,33 +1,42 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+:root {
+  --text-color: #212121;
+  --main-color: #2196f3;
+  --little-text-color: #757575;
+}
 body {
   margin: 0;
   padding: 0;
 }
+.header-navigation {
+  border: 1px solid #ececec;
+}
+
 .navigation-web-studio {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--text-color);
   text-decoration: none;
 }
 .navigation-web-studio span {
-  color: #2196f3;
+  color: var(--main-color);
 }
 .navigation-pages {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-color);
   text-decoration: none;
   transition: 0.3s ease-in;
 }
 .navigation-pages:hover,
 .navigation-pages:focus {
-  color: #2196f3;
+  color: var(--main-color);
   text-decoration: underline;
 }
 .navigation-list {
@@ -59,28 +68,28 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--little-text-color);
   text-decoration: none;
   margin-left: 10px;
   transition: 0.3s ease-in;
 }
 .mailto:hover,
 .mailto:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 .tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--little-text-color);
   text-decoration: none;
   margin-left: 10px;
   transition: 0.3s ease-in;
 }
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 .header-main-content {
   width: 100%;
@@ -107,7 +116,7 @@ body {
   width: 200px;
   height: 50px;
   padding: 10px 32px 10px 32px;
-  background: #2196f3;
+  background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;
@@ -148,14 +157,14 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--text-color);
 }
 .main-advantages p {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--little-text-color);
 }
 .main-punctuality {
   background-image: url("../img/1st/clock-1.svg");
@@ -204,7 +213,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 .main-what-we-do {
   display: flex;
@@ -242,7 +251,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   margin-bottom: 50px;
 }
 .team-container {
@@ -267,7 +276,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 .team-card p {
   font-weight: normal;
@@ -275,7 +284,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--little-text-color);
 }
 .team-social {
   list-style: none;
@@ -303,7 +312,7 @@ body {
 }
 .instagram:hover,
 .instagram:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -323,7 +332,7 @@ body {
 }
 .twitter:hover,
 .twitter:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -342,7 +351,7 @@ body {
 }
 .facebook:hover,
 .facebook:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -361,7 +370,7 @@ body {
 }
 .IN:hover,
 .IN:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -377,7 +386,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   margin-bottom: 50px;
 }
 
@@ -393,8 +402,8 @@ body {
 .footer-company:hover,
 .footer-company:focus {
   cursor: pointer;
-  border: 1px solid #2196f3;
-  background-color: #2196f3;
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
 }
 .footer-contacts {
   width: 100%;
@@ -457,7 +466,7 @@ body {
 }
 .footer-instagram:hover,
 .footer-instagram:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -477,7 +486,7 @@ body {
 }
 .footer-twitter:hover,
 .footer-twitter:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -497,7 +506,7 @@ body {
 }
 .footer-facebook:hover,
 .footer-facebook:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -516,7 +525,7 @@ body {
 }
 .footer-IN:hover,
 .footer-IN:focus {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   padding: 12px;
   border-radius: 20px;
 }
@@ -551,7 +560,7 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
-  background: #2196f3;
+  background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 900;

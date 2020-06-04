@@ -37,12 +37,12 @@ body {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   transition: 0.3s ease-in;
 }
 .buttons-main:hover,
 .buttons-main:focus {
-  background: #2196f3;
+  background: var(--main-color);
   color: #ffffff;
 }
 .projects-row {
@@ -68,7 +68,7 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--text-color);
   padding-left: 24px;
 }
 .projects-card p {
@@ -76,6 +76,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--little-text-color);
   padding-left: 24px;
 }
