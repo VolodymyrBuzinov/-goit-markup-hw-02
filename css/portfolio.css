@@ -1,0 +1,81 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-navigation {
+  margin-top: 93px;
+  text-align: center;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+.visually-hidden:not(:focus):not(:active) {
+  /* ... */
+}
+.main-buttons {
+  display: inline-flex;
+  list-style: none;
+  margin-bottom: 56px;
+}
+.buttons-main {
+  margin-right: 8px;
+  text-decoration: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  transition: 0.3s ease-in;
+}
+.buttons-main:hover,
+.buttons-main:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.projects-row {
+  display: flex;
+  padding-right: 30px;
+  justify-content: center;
+  margin-bottom: 114px;
+}
+.projects-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+.projects-card:hover,
+.projects-card:focus {
+  box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.projects-card h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  padding-left: 24px;
+}
+.projects-card p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-left: 24px;
+}

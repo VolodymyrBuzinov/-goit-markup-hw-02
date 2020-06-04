@@ -1,6 +1,10 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 .navigation-web-studio {
   font-weight: bold;
   font-size: 26px;
@@ -398,13 +402,17 @@
   background-color: #2f303a;
 }
 .footer-navigation {
+  margin: 0;
+  padding: 0;
   width: 1170px;
   height: 130px;
-  align-items: center;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .footer-adress {
+  padding: 0;
+  margin: 0;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -413,6 +421,8 @@
   list-style: none;
   text-align: left;
   margin-right: 70px;
+  padding-top: 48px;
+  margin-left: 50px;
 }
 .footer-tel,
 #mail {
@@ -427,19 +437,10 @@
   display: inline-flex;
   width: 206px;
   height: 81px;
+  padding-top: 93px;
   margin-right: 95px;
   margin-top: 21px;
 }
-.footer-social h3 {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  display: flex;
-}
-
 .footer-instagram {
   width: 20px;
   height: 20px;
@@ -453,6 +454,12 @@
   padding: 12px;
   border-radius: 20px;
   margin-right: 10px;
+}
+.footer-instagram:hover,
+.footer-instagram:focus {
+  background-color: #2196f3;
+  padding: 12px;
+  border-radius: 20px;
 }
 .footer-twitter {
   width: 20px;
@@ -468,6 +475,12 @@
   border-radius: 20px;
   margin-right: 10px;
 }
+.footer-twitter:hover,
+.footer-twitter:focus {
+  background-color: #2196f3;
+  padding: 12px;
+  border-radius: 20px;
+}
 .footer-facebook {
   width: 20px;
   height: 20px;
@@ -482,6 +495,12 @@
   border-radius: 20px;
   margin-right: 10px;
 }
+.footer-facebook:hover,
+.footer-facebook:focus {
+  background-color: #2196f3;
+  padding: 12px;
+  border-radius: 20px;
+}
 .footer-IN {
   width: 20px;
   height: 20px;
@@ -495,12 +514,19 @@
   padding: 12px;
   border-radius: 20px;
 }
+.footer-IN:hover,
+.footer-IN:focus {
+  background-color: #2196f3;
+  padding: 12px;
+  border-radius: 20px;
+}
 .footer-line {
   width: 1170px;
   height: 0;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 0 auto;
+  margin-top: 28px;
 }
 .footer-copyright {
   text-align: center;
@@ -514,15 +540,17 @@
   color: rgba(255, 255, 255, 0.4);
 }
 .footer-form {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
+  margin-top: 75px;
 }
 .submmit {
   width: 200px;
-  height: 42px;
+  height: 50px;
   display: flex;
   align-items: center;
-  text-align: center;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -532,7 +560,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  margin-top: 8px;
   margin-left: 10px;
   cursor: pointer;
 }
@@ -540,16 +567,16 @@
   padding-left: 29px;
   padding-right: 10px;
 }
-.footer-fieldset {
-  display: block;
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
 .footer-input {
   background-color: #2f303a;
-  margin-bottom: 100px;
+  width: 358px;
+  height: 50px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding-left: 12px;
 }
