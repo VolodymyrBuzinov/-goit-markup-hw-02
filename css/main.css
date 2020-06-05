@@ -23,6 +23,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 .navigation-web-studio span {
   color: var(--main-color);
@@ -233,7 +234,6 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   list-style: none;
-  text-align: left;
 }
 .footer-tel,
 #mail {
@@ -257,6 +257,14 @@ body {
 .submmit p {
   padding-left: 29px;
   padding-right: 10px;
+}
+.footer-social h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .footer-input {
   font-weight: normal;
@@ -304,4 +312,12 @@ body {
 .footer-IN a:hover,
 .footer-IN a:focus {
   color: var(--main-color);
+}
+.footer-form h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
