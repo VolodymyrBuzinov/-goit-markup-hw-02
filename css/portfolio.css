@@ -34,7 +34,7 @@ body {
   padding: 6px 22px 6px 22px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -56,17 +56,22 @@ body {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-right: 30px;
+  list-style: none;
 }
+
 .projects-card:hover,
 .projects-card:focus {
   box-sizing: border-box;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
+.projects-card a {
+  text-decoration: none;
+}
 .projects-card h3 {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
   padding-left: 24px;
@@ -74,7 +79,7 @@ body {
 .projects-card p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--little-text-color);
   padding-left: 24px;
