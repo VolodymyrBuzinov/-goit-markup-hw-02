@@ -42,7 +42,9 @@ body {
   color: var(--main-color);
   text-decoration: underline;
 }
-
+.navigation-mail-tel {
+  list-style: none;
+}
 .mailto {
   font-weight: 500;
   font-size: 14px;

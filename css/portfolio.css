@@ -46,10 +46,11 @@ body {
   color: #ffffff;
 }
 .projects-row {
-  display: flex;
+  display: block;
   padding-right: 30px;
-  justify-content: center;
   margin-bottom: 114px;
+  margin: 0;
+  padding: 0;
 }
 .projects-card {
   background: #ffffff;
@@ -57,6 +58,7 @@ body {
   box-sizing: border-box;
   margin-right: 30px;
   list-style: none;
+  display: inline-block;
 }
 
 .projects-card:hover,
