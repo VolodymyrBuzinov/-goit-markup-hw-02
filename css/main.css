@@ -1,20 +1,22 @@
-* {
+*,
+*::before,
+*::after {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 :root {
   --text-color: #212121;
   --main-color: #2196f3;
   --little-text-color: #757575;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
 .header-navigation {
   border: 1px solid #ececec;
 }
 .navigation-list {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .navigation-web-studio {
   font-weight: bold;
@@ -44,6 +46,7 @@ body {
 }
 .navigation-mail-tel {
   list-style: none;
+  padding-left: 0;
 }
 .mailto {
   font-weight: 500;
@@ -52,12 +55,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--little-text-color);
   text-decoration: none;
-  margin-left: 10px;
   transition: 0.3s ease-in;
 }
 .mailto:hover,
 .mailto:focus {
   color: var(--main-color);
+}
+.mailto img {
+  margin-right: 10px;
 }
 .tel {
   font-weight: 500;
@@ -66,16 +71,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--little-text-color);
   text-decoration: none;
-  margin-left: 10px;
   transition: 0.3s ease-in;
 }
 .tel:hover,
 .tel:focus {
   color: var(--main-color);
 }
+.tel img {
+  margin-right: 10px;
+}
 .header-main-content {
   width: 100%;
   height: 600px;
+  margin-bottom: 94px;
   background-image: url("../img/1st/Header-img.png");
   background-repeat: no-repeat;
   text-align: center;
@@ -83,7 +91,8 @@ body {
 }
 
 .header-title {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -91,12 +100,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  outline: 2px solid #2196f3;
   padding-top: 200px;
-  padding-bottom: 30px;
 }
 .header-title-button {
-  width: 200px;
-  height: 50px;
+  display: inline-block;
+  min-width: 200px;
   padding: 10px 32px 10px 32px;
   background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -109,7 +118,28 @@ body {
   text-decoration: none;
 }
 
+.main-advantages {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+}
+.main-advantages ul {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.main-advantages li {
+  display: inline-block;
+  width: 270px;
+  text-align: left;
+  margin-right: 0;
+}
 .main-advantages h2 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -118,21 +148,17 @@ body {
   color: var(--text-color);
 }
 .main-advantages p {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--little-text-color);
 }
-
-.line {
-  width: 1170px;
-  height: 0px;
-  border: 1px solid #ececec;
-  margin: 0 auto;
-  margin-bottom: 94px;
-}
 .what-we-do-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   text-align: center;
   margin-bottom: 50px;
   font-weight: bold;
@@ -142,9 +168,24 @@ body {
   color: var(--text-color);
 }
 .main-what-we-do {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-what-we-do ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.main-desktop {
+  display: inline-block;
 }
 .main-desktop p {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
